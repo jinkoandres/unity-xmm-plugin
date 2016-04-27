@@ -1,0 +1,4 @@
+.DS_Store
+xmm
+platform/android/obj/
+platform/apple/xmm-macos.xcodeproj/**/xcuserdata/**
