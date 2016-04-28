@@ -1,4 +1,4 @@
 .DS_Store
-xmm
+xmm-symbolink
 platform/android/obj/
 platform/apple/xmm-macos.xcodeproj/**/xcuserdata/**

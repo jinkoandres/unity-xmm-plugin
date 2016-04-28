@@ -20,17 +20,38 @@
 	<key>files2</key>
 	<dict>
 		<key>Resources/Info.plist</key>
-		<data>
-		+AsgRSBfXLfEOM0zcZgu0ucBDtk=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			+AsgRSBfXLfEOM0zcZgu0ucBDtk=
+			</data>
+			<key>hash2</key>
+			<data>
+			r/qv5DYNdDdqN5zdO+eJstkRcON3TicsNBYXBsAwoE0=
+			</data>
+		</dict>
 		<key>Resources/XMMEngine.h</key>
-		<data>
-		hwkW0xKmqLom0NCOGmOrrUUWoEQ=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			hwkW0xKmqLom0NCOGmOrrUUWoEQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			WGIp1lN0rDLRHiJEjSoQeiq+7PayF4obCO6o6HRmbQ8=
+			</data>
+		</dict>
 		<key>Resources/json_valueiterator.inl</key>
-		<data>
-		eW6lfbEs9/aymwqLybFMOIK4mto=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			eW6lfbEs9/aymwqLybFMOIK4mto=
+			</data>
+			<key>hash2</key>
+			<data>
+			dNvqYNM6H2JG86+nKeVw2SgXEL9GZOWeI/drinPhxT0=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
