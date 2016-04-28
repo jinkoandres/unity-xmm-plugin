@@ -7,93 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		312A5BCA1CD0F2F900EDF507 /* xmmKMeans.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5BC51CD0F2F900EDF507 /* xmmKMeans.cpp */; };
-		312A5BCB1CD0F2F900EDF507 /* xmmKMeansParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5BC71CD0F2F900EDF507 /* xmmKMeansParameters.cpp */; };
-		312A5BD31CD0F30A00EDF507 /* xmmHierarchicalHmm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5BCC1CD0F30A00EDF507 /* xmmHierarchicalHmm.cpp */; };
-		312A5BD41CD0F30A00EDF507 /* xmmHmmParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5BCE1CD0F30A00EDF507 /* xmmHmmParameters.cpp */; };
-		312A5BD51CD0F30A00EDF507 /* xmmHmmSingleClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5BD11CD0F30A00EDF507 /* xmmHmmSingleClass.cpp */; };
-		312A5BDC1CD0F31A00EDF507 /* xmmGmm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5BD61CD0F31A00EDF507 /* xmmGmm.cpp */; };
-		312A5BDD1CD0F31A00EDF507 /* xmmGmmParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5BD81CD0F31A00EDF507 /* xmmGmmParameters.cpp */; };
-		312A5BDE1CD0F31A00EDF507 /* xmmGmmSingleClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5BDA1CD0F31A00EDF507 /* xmmGmmSingleClass.cpp */; };
-		312A5BE31CD0F32700EDF507 /* xmmPhrase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5BDF1CD0F32700EDF507 /* xmmPhrase.cpp */; };
-		312A5BE41CD0F32700EDF507 /* xmmTrainingSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5BE11CD0F32700EDF507 /* xmmTrainingSet.cpp */; };
-		312A5BED1CD0F33300EDF507 /* xmmModelSharedParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5BE91CD0F33300EDF507 /* xmmModelSharedParameters.cpp */; };
-		312A5BEE1CD0F33300EDF507 /* xmmModelSingleClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5BEB1CD0F33300EDF507 /* xmmModelSingleClass.cpp */; };
-		312A5BF11CD0F34400EDF507 /* xmmGaussianDistribution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5BEF1CD0F34400EDF507 /* xmmGaussianDistribution.cpp */; };
-		312A5BF91CD0F35000EDF507 /* xmmAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5BF21CD0F35000EDF507 /* xmmAttribute.cpp */; };
-		312A5BFA1CD0F35000EDF507 /* xmmJson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5BF61CD0F35000EDF507 /* xmmJson.cpp */; };
-		312A5C0D1CD0F3AE00EDF507 /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5C081CD0F3AE00EDF507 /* json_reader.cpp */; };
-		312A5C0E1CD0F3AE00EDF507 /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5C0A1CD0F3AE00EDF507 /* json_value.cpp */; };
-		312A5C0F1CD0F3AE00EDF507 /* json_valueiterator.inl in Resources */ = {isa = PBXBuildFile; fileRef = 312A5C0B1CD0F3AE00EDF507 /* json_valueiterator.inl */; };
-		312A5C101CD0F3AE00EDF507 /* json_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5C0C1CD0F3AE00EDF507 /* json_writer.cpp */; };
 		312A5C181CD0F45600EDF507 /* XMMEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5C161CD0F45600EDF507 /* XMMEngine.cpp */; };
 		312A5C191CD0F45600EDF507 /* XMMEngineCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5C171CD0F45600EDF507 /* XMMEngineCore.cpp */; };
 		312A5C1B1CD0FAFE00EDF507 /* XMMEngine.h in Resources */ = {isa = PBXBuildFile; fileRef = 312A5C141CD0F44700EDF507 /* XMMEngine.h */; };
 		312A5C1D1CD0FCFE00EDF507 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 312A5C1C1CD0FCFE00EDF507 /* Info.plist */; };
+		319E95861CD24F48000E9AC4 /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95811CD24F48000E9AC4 /* json_reader.cpp */; };
+		319E95871CD24F48000E9AC4 /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95831CD24F48000E9AC4 /* json_value.cpp */; };
+		319E95881CD24F48000E9AC4 /* json_valueiterator.inl in Resources */ = {isa = PBXBuildFile; fileRef = 319E95841CD24F48000E9AC4 /* json_valueiterator.inl */; };
+		319E95891CD24F48000E9AC4 /* json_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95851CD24F48000E9AC4 /* json_writer.cpp */; };
+		319E958F1CD24F70000E9AC4 /* xmmKMeans.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E958A1CD24F70000E9AC4 /* xmmKMeans.cpp */; };
+		319E95901CD24F70000E9AC4 /* xmmKMeansParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E958C1CD24F70000E9AC4 /* xmmKMeansParameters.cpp */; };
+		319E95981CD24F82000E9AC4 /* xmmHierarchicalHmm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95911CD24F82000E9AC4 /* xmmHierarchicalHmm.cpp */; };
+		319E95991CD24F82000E9AC4 /* xmmHmmParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95931CD24F82000E9AC4 /* xmmHmmParameters.cpp */; };
+		319E959A1CD24F82000E9AC4 /* xmmHmmSingleClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95961CD24F82000E9AC4 /* xmmHmmSingleClass.cpp */; };
+		319E95A11CD24F9D000E9AC4 /* xmmGmm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E959B1CD24F9D000E9AC4 /* xmmGmm.cpp */; };
+		319E95A21CD24F9D000E9AC4 /* xmmGmmParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E959D1CD24F9D000E9AC4 /* xmmGmmParameters.cpp */; };
+		319E95A31CD24F9D000E9AC4 /* xmmGmmSingleClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E959F1CD24F9D000E9AC4 /* xmmGmmSingleClass.cpp */; };
+		319E95A81CD24FB1000E9AC4 /* xmmPhrase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95A41CD24FB1000E9AC4 /* xmmPhrase.cpp */; };
+		319E95A91CD24FB1000E9AC4 /* xmmTrainingSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95A61CD24FB1000E9AC4 /* xmmTrainingSet.cpp */; };
+		319E95B21CD24FC8000E9AC4 /* xmmModelSharedParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95AE1CD24FC8000E9AC4 /* xmmModelSharedParameters.cpp */; };
+		319E95B31CD24FC8000E9AC4 /* xmmModelSingleClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95B01CD24FC8000E9AC4 /* xmmModelSingleClass.cpp */; };
+		319E95B61CD24FE7000E9AC4 /* xmmGaussianDistribution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95B41CD24FE7000E9AC4 /* xmmGaussianDistribution.cpp */; };
+		319E95BE1CD24FFA000E9AC4 /* xmmAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95B71CD24FFA000E9AC4 /* xmmAttribute.cpp */; };
+		319E95BF1CD24FFA000E9AC4 /* xmmJson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95BB1CD24FFA000E9AC4 /* xmmJson.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		312A5BB11CD0F1AE00EDF507 /* XMMEngine.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMMEngine.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		312A5BC41CD0F2E500EDF507 /* xmm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmm.h; path = ../../../../xmm/src/xmm.h; sourceTree = SOURCE_ROOT; };
-		312A5BC51CD0F2F900EDF507 /* xmmKMeans.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmKMeans.cpp; path = ../../../../xmm/src/models/kmeans/xmmKMeans.cpp; sourceTree = SOURCE_ROOT; };
-		312A5BC61CD0F2F900EDF507 /* xmmKMeans.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmKMeans.hpp; path = ../../../../xmm/src/models/kmeans/xmmKMeans.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BC71CD0F2F900EDF507 /* xmmKMeansParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmKMeansParameters.cpp; path = ../../../../xmm/src/models/kmeans/xmmKMeansParameters.cpp; sourceTree = SOURCE_ROOT; };
-		312A5BC81CD0F2F900EDF507 /* xmmKMeansParameters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmKMeansParameters.hpp; path = ../../../../xmm/src/models/kmeans/xmmKMeansParameters.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BC91CD0F2F900EDF507 /* xmmKMeansResults.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmKMeansResults.hpp; path = ../../../../xmm/src/models/kmeans/xmmKMeansResults.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BCC1CD0F30A00EDF507 /* xmmHierarchicalHmm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmHierarchicalHmm.cpp; path = ../../../../xmm/src/models/hmm/xmmHierarchicalHmm.cpp; sourceTree = SOURCE_ROOT; };
-		312A5BCD1CD0F30A00EDF507 /* xmmHierarchicalHmm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmHierarchicalHmm.hpp; path = ../../../../xmm/src/models/hmm/xmmHierarchicalHmm.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BCE1CD0F30A00EDF507 /* xmmHmmParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmHmmParameters.cpp; path = ../../../../xmm/src/models/hmm/xmmHmmParameters.cpp; sourceTree = SOURCE_ROOT; };
-		312A5BCF1CD0F30A00EDF507 /* xmmHmmParameters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmHmmParameters.hpp; path = ../../../../xmm/src/models/hmm/xmmHmmParameters.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BD01CD0F30A00EDF507 /* xmmHmmResults.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmHmmResults.hpp; path = ../../../../xmm/src/models/hmm/xmmHmmResults.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BD11CD0F30A00EDF507 /* xmmHmmSingleClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmHmmSingleClass.cpp; path = ../../../../xmm/src/models/hmm/xmmHmmSingleClass.cpp; sourceTree = SOURCE_ROOT; };
-		312A5BD21CD0F30A00EDF507 /* xmmHmmSingleClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmHmmSingleClass.hpp; path = ../../../../xmm/src/models/hmm/xmmHmmSingleClass.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BD61CD0F31A00EDF507 /* xmmGmm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmGmm.cpp; path = ../../../../xmm/src/models/gmm/xmmGmm.cpp; sourceTree = SOURCE_ROOT; };
-		312A5BD71CD0F31A00EDF507 /* xmmGmm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmGmm.hpp; path = ../../../../xmm/src/models/gmm/xmmGmm.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BD81CD0F31A00EDF507 /* xmmGmmParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmGmmParameters.cpp; path = ../../../../xmm/src/models/gmm/xmmGmmParameters.cpp; sourceTree = SOURCE_ROOT; };
-		312A5BD91CD0F31A00EDF507 /* xmmGmmParameters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmGmmParameters.hpp; path = ../../../../xmm/src/models/gmm/xmmGmmParameters.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BDA1CD0F31A00EDF507 /* xmmGmmSingleClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmGmmSingleClass.cpp; path = ../../../../xmm/src/models/gmm/xmmGmmSingleClass.cpp; sourceTree = SOURCE_ROOT; };
-		312A5BDB1CD0F31A00EDF507 /* xmmGmmSingleClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmGmmSingleClass.hpp; path = ../../../../xmm/src/models/gmm/xmmGmmSingleClass.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BDF1CD0F32700EDF507 /* xmmPhrase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmPhrase.cpp; path = ../../../../xmm/src/core/trainingset/xmmPhrase.cpp; sourceTree = SOURCE_ROOT; };
-		312A5BE01CD0F32700EDF507 /* xmmPhrase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmPhrase.hpp; path = ../../../../xmm/src/core/trainingset/xmmPhrase.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BE11CD0F32700EDF507 /* xmmTrainingSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmTrainingSet.cpp; path = ../../../../xmm/src/core/trainingset/xmmTrainingSet.cpp; sourceTree = SOURCE_ROOT; };
-		312A5BE21CD0F32700EDF507 /* xmmTrainingSet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmTrainingSet.hpp; path = ../../../../xmm/src/core/trainingset/xmmTrainingSet.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BE51CD0F33300EDF507 /* xmmModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModel.hpp; path = ../../../../xmm/src/core/model/xmmModel.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BE61CD0F33300EDF507 /* xmmModelConfiguration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModelConfiguration.hpp; path = ../../../../xmm/src/core/model/xmmModelConfiguration.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BE71CD0F33300EDF507 /* xmmModelParameters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModelParameters.hpp; path = ../../../../xmm/src/core/model/xmmModelParameters.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BE81CD0F33300EDF507 /* xmmModelResults.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModelResults.hpp; path = ../../../../xmm/src/core/model/xmmModelResults.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BE91CD0F33300EDF507 /* xmmModelSharedParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmModelSharedParameters.cpp; path = ../../../../xmm/src/core/model/xmmModelSharedParameters.cpp; sourceTree = SOURCE_ROOT; };
-		312A5BEA1CD0F33300EDF507 /* xmmModelSharedParameters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModelSharedParameters.hpp; path = ../../../../xmm/src/core/model/xmmModelSharedParameters.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BEB1CD0F33300EDF507 /* xmmModelSingleClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmModelSingleClass.cpp; path = ../../../../xmm/src/core/model/xmmModelSingleClass.cpp; sourceTree = SOURCE_ROOT; };
-		312A5BEC1CD0F33300EDF507 /* xmmModelSingleClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModelSingleClass.hpp; path = ../../../../xmm/src/core/model/xmmModelSingleClass.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BEF1CD0F34400EDF507 /* xmmGaussianDistribution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmGaussianDistribution.cpp; path = ../../../../xmm/src/core/distributions/xmmGaussianDistribution.cpp; sourceTree = SOURCE_ROOT; };
-		312A5BF01CD0F34400EDF507 /* xmmGaussianDistribution.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmGaussianDistribution.hpp; path = ../../../../xmm/src/core/distributions/xmmGaussianDistribution.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BF21CD0F35000EDF507 /* xmmAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmAttribute.cpp; path = ../../../../xmm/src/core/common/xmmAttribute.cpp; sourceTree = SOURCE_ROOT; };
-		312A5BF31CD0F35000EDF507 /* xmmAttribute.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmAttribute.hpp; path = ../../../../xmm/src/core/common/xmmAttribute.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BF41CD0F35000EDF507 /* xmmCircularbuffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmCircularbuffer.hpp; path = ../../../../xmm/src/core/common/xmmCircularbuffer.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BF51CD0F35000EDF507 /* xmmEvents.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmEvents.hpp; path = ../../../../xmm/src/core/common/xmmEvents.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BF61CD0F35000EDF507 /* xmmJson.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmJson.cpp; path = ../../../../xmm/src/core/common/xmmJson.cpp; sourceTree = SOURCE_ROOT; };
-		312A5BF71CD0F35000EDF507 /* xmmJson.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmJson.hpp; path = ../../../../xmm/src/core/common/xmmJson.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BF81CD0F35000EDF507 /* xmmMatrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmMatrix.hpp; path = ../../../../xmm/src/core/common/xmmMatrix.hpp; sourceTree = SOURCE_ROOT; };
-		312A5BFE1CD0F39C00EDF507 /* assertions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = assertions.h; path = ../../../../xmm/dependencies/jsoncpp/include/assertions.h; sourceTree = SOURCE_ROOT; };
-		312A5BFF1CD0F39C00EDF507 /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = autolink.h; path = ../../../../xmm/dependencies/jsoncpp/include/autolink.h; sourceTree = SOURCE_ROOT; };
-		312A5C001CD0F39C00EDF507 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../../../../xmm/dependencies/jsoncpp/include/config.h; sourceTree = SOURCE_ROOT; };
-		312A5C011CD0F39C00EDF507 /* forwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = forwards.h; path = ../../../../xmm/dependencies/jsoncpp/include/forwards.h; sourceTree = SOURCE_ROOT; };
-		312A5C021CD0F39C00EDF507 /* json-features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "json-features.h"; path = "../../../../xmm/dependencies/jsoncpp/include/json-features.h"; sourceTree = SOURCE_ROOT; };
-		312A5C031CD0F39C00EDF507 /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = json.h; path = ../../../../xmm/dependencies/jsoncpp/include/json.h; sourceTree = SOURCE_ROOT; };
-		312A5C041CD0F39C00EDF507 /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = reader.h; path = ../../../../xmm/dependencies/jsoncpp/include/reader.h; sourceTree = SOURCE_ROOT; };
-		312A5C051CD0F39C00EDF507 /* value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = value.h; path = ../../../../xmm/dependencies/jsoncpp/include/value.h; sourceTree = SOURCE_ROOT; };
-		312A5C061CD0F39C00EDF507 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = ../../../../xmm/dependencies/jsoncpp/include/version.h; sourceTree = SOURCE_ROOT; };
-		312A5C071CD0F39C00EDF507 /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = writer.h; path = ../../../../xmm/dependencies/jsoncpp/include/writer.h; sourceTree = SOURCE_ROOT; };
-		312A5C081CD0F3AE00EDF507 /* json_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_reader.cpp; path = ../../../../xmm/dependencies/jsoncpp/src/json_reader.cpp; sourceTree = SOURCE_ROOT; };
-		312A5C091CD0F3AE00EDF507 /* json_tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = json_tool.h; path = ../../../../xmm/dependencies/jsoncpp/src/json_tool.h; sourceTree = SOURCE_ROOT; };
-		312A5C0A1CD0F3AE00EDF507 /* json_value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_value.cpp; path = ../../../../xmm/dependencies/jsoncpp/src/json_value.cpp; sourceTree = SOURCE_ROOT; };
-		312A5C0B1CD0F3AE00EDF507 /* json_valueiterator.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = json_valueiterator.inl; path = ../../../../xmm/dependencies/jsoncpp/src/json_valueiterator.inl; sourceTree = SOURCE_ROOT; };
-		312A5C0C1CD0F3AE00EDF507 /* json_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_writer.cpp; path = ../../../../xmm/dependencies/jsoncpp/src/json_writer.cpp; sourceTree = SOURCE_ROOT; };
 		312A5C141CD0F44700EDF507 /* XMMEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMMEngine.h; path = ../../plugin/include/XMMEngine.h; sourceTree = SOURCE_ROOT; };
 		312A5C151CD0F44700EDF507 /* XMMEngineCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMMEngineCore.h; path = ../../plugin/include/XMMEngineCore.h; sourceTree = SOURCE_ROOT; };
 		312A5C161CD0F45600EDF507 /* XMMEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XMMEngine.cpp; path = ../../plugin/src/XMMEngine.cpp; sourceTree = SOURCE_ROOT; };
 		312A5C171CD0F45600EDF507 /* XMMEngineCore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XMMEngineCore.cpp; path = ../../plugin/src/XMMEngineCore.cpp; sourceTree = SOURCE_ROOT; };
 		312A5C1C1CD0FCFE00EDF507 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319E95771CD24F2E000E9AC4 /* assertions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = assertions.h; path = ../../xmm/dependencies/jsoncpp/include/assertions.h; sourceTree = SOURCE_ROOT; };
+		319E95781CD24F2E000E9AC4 /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = autolink.h; path = ../../xmm/dependencies/jsoncpp/include/autolink.h; sourceTree = SOURCE_ROOT; };
+		319E95791CD24F2E000E9AC4 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../../xmm/dependencies/jsoncpp/include/config.h; sourceTree = SOURCE_ROOT; };
+		319E957A1CD24F2E000E9AC4 /* forwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = forwards.h; path = ../../xmm/dependencies/jsoncpp/include/forwards.h; sourceTree = SOURCE_ROOT; };
+		319E957B1CD24F2E000E9AC4 /* json-features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "json-features.h"; path = "../../xmm/dependencies/jsoncpp/include/json-features.h"; sourceTree = SOURCE_ROOT; };
+		319E957C1CD24F2E000E9AC4 /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = json.h; path = ../../xmm/dependencies/jsoncpp/include/json.h; sourceTree = SOURCE_ROOT; };
+		319E957D1CD24F2E000E9AC4 /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = reader.h; path = ../../xmm/dependencies/jsoncpp/include/reader.h; sourceTree = SOURCE_ROOT; };
+		319E957E1CD24F2E000E9AC4 /* value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = value.h; path = ../../xmm/dependencies/jsoncpp/include/value.h; sourceTree = SOURCE_ROOT; };
+		319E957F1CD24F2E000E9AC4 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = ../../xmm/dependencies/jsoncpp/include/version.h; sourceTree = SOURCE_ROOT; };
+		319E95801CD24F2E000E9AC4 /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = writer.h; path = ../../xmm/dependencies/jsoncpp/include/writer.h; sourceTree = SOURCE_ROOT; };
+		319E95811CD24F48000E9AC4 /* json_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_reader.cpp; path = ../../xmm/dependencies/jsoncpp/src/json_reader.cpp; sourceTree = SOURCE_ROOT; };
+		319E95821CD24F48000E9AC4 /* json_tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = json_tool.h; path = ../../xmm/dependencies/jsoncpp/src/json_tool.h; sourceTree = SOURCE_ROOT; };
+		319E95831CD24F48000E9AC4 /* json_value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_value.cpp; path = ../../xmm/dependencies/jsoncpp/src/json_value.cpp; sourceTree = SOURCE_ROOT; };
+		319E95841CD24F48000E9AC4 /* json_valueiterator.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = json_valueiterator.inl; path = ../../xmm/dependencies/jsoncpp/src/json_valueiterator.inl; sourceTree = SOURCE_ROOT; };
+		319E95851CD24F48000E9AC4 /* json_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_writer.cpp; path = ../../xmm/dependencies/jsoncpp/src/json_writer.cpp; sourceTree = SOURCE_ROOT; };
+		319E958A1CD24F70000E9AC4 /* xmmKMeans.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmKMeans.cpp; path = ../../xmm/src/models/kmeans/xmmKMeans.cpp; sourceTree = SOURCE_ROOT; };
+		319E958B1CD24F70000E9AC4 /* xmmKMeans.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmKMeans.hpp; path = ../../xmm/src/models/kmeans/xmmKMeans.hpp; sourceTree = SOURCE_ROOT; };
+		319E958C1CD24F70000E9AC4 /* xmmKMeansParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmKMeansParameters.cpp; path = ../../xmm/src/models/kmeans/xmmKMeansParameters.cpp; sourceTree = SOURCE_ROOT; };
+		319E958D1CD24F70000E9AC4 /* xmmKMeansParameters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmKMeansParameters.hpp; path = ../../xmm/src/models/kmeans/xmmKMeansParameters.hpp; sourceTree = SOURCE_ROOT; };
+		319E958E1CD24F70000E9AC4 /* xmmKMeansResults.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmKMeansResults.hpp; path = ../../xmm/src/models/kmeans/xmmKMeansResults.hpp; sourceTree = SOURCE_ROOT; };
+		319E95911CD24F82000E9AC4 /* xmmHierarchicalHmm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmHierarchicalHmm.cpp; path = ../../xmm/src/models/hmm/xmmHierarchicalHmm.cpp; sourceTree = SOURCE_ROOT; };
+		319E95921CD24F82000E9AC4 /* xmmHierarchicalHmm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmHierarchicalHmm.hpp; path = ../../xmm/src/models/hmm/xmmHierarchicalHmm.hpp; sourceTree = SOURCE_ROOT; };
+		319E95931CD24F82000E9AC4 /* xmmHmmParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmHmmParameters.cpp; path = ../../xmm/src/models/hmm/xmmHmmParameters.cpp; sourceTree = SOURCE_ROOT; };
+		319E95941CD24F82000E9AC4 /* xmmHmmParameters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmHmmParameters.hpp; path = ../../xmm/src/models/hmm/xmmHmmParameters.hpp; sourceTree = SOURCE_ROOT; };
+		319E95951CD24F82000E9AC4 /* xmmHmmResults.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmHmmResults.hpp; path = ../../xmm/src/models/hmm/xmmHmmResults.hpp; sourceTree = SOURCE_ROOT; };
+		319E95961CD24F82000E9AC4 /* xmmHmmSingleClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmHmmSingleClass.cpp; path = ../../xmm/src/models/hmm/xmmHmmSingleClass.cpp; sourceTree = SOURCE_ROOT; };
+		319E95971CD24F82000E9AC4 /* xmmHmmSingleClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmHmmSingleClass.hpp; path = ../../xmm/src/models/hmm/xmmHmmSingleClass.hpp; sourceTree = SOURCE_ROOT; };
+		319E959B1CD24F9D000E9AC4 /* xmmGmm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmGmm.cpp; path = ../../xmm/src/models/gmm/xmmGmm.cpp; sourceTree = SOURCE_ROOT; };
+		319E959C1CD24F9D000E9AC4 /* xmmGmm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmGmm.hpp; path = ../../xmm/src/models/gmm/xmmGmm.hpp; sourceTree = SOURCE_ROOT; };
+		319E959D1CD24F9D000E9AC4 /* xmmGmmParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmGmmParameters.cpp; path = ../../xmm/src/models/gmm/xmmGmmParameters.cpp; sourceTree = SOURCE_ROOT; };
+		319E959E1CD24F9D000E9AC4 /* xmmGmmParameters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmGmmParameters.hpp; path = ../../xmm/src/models/gmm/xmmGmmParameters.hpp; sourceTree = SOURCE_ROOT; };
+		319E959F1CD24F9D000E9AC4 /* xmmGmmSingleClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmGmmSingleClass.cpp; path = ../../xmm/src/models/gmm/xmmGmmSingleClass.cpp; sourceTree = SOURCE_ROOT; };
+		319E95A01CD24F9D000E9AC4 /* xmmGmmSingleClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmGmmSingleClass.hpp; path = ../../xmm/src/models/gmm/xmmGmmSingleClass.hpp; sourceTree = SOURCE_ROOT; };
+		319E95A41CD24FB1000E9AC4 /* xmmPhrase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmPhrase.cpp; path = ../../xmm/src/core/trainingset/xmmPhrase.cpp; sourceTree = SOURCE_ROOT; };
+		319E95A51CD24FB1000E9AC4 /* xmmPhrase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmPhrase.hpp; path = ../../xmm/src/core/trainingset/xmmPhrase.hpp; sourceTree = SOURCE_ROOT; };
+		319E95A61CD24FB1000E9AC4 /* xmmTrainingSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmTrainingSet.cpp; path = ../../xmm/src/core/trainingset/xmmTrainingSet.cpp; sourceTree = SOURCE_ROOT; };
+		319E95A71CD24FB1000E9AC4 /* xmmTrainingSet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmTrainingSet.hpp; path = ../../xmm/src/core/trainingset/xmmTrainingSet.hpp; sourceTree = SOURCE_ROOT; };
+		319E95AA1CD24FC8000E9AC4 /* xmmModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModel.hpp; path = ../../xmm/src/core/model/xmmModel.hpp; sourceTree = SOURCE_ROOT; };
+		319E95AB1CD24FC8000E9AC4 /* xmmModelConfiguration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModelConfiguration.hpp; path = ../../xmm/src/core/model/xmmModelConfiguration.hpp; sourceTree = SOURCE_ROOT; };
+		319E95AC1CD24FC8000E9AC4 /* xmmModelParameters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModelParameters.hpp; path = ../../xmm/src/core/model/xmmModelParameters.hpp; sourceTree = SOURCE_ROOT; };
+		319E95AD1CD24FC8000E9AC4 /* xmmModelResults.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModelResults.hpp; path = ../../xmm/src/core/model/xmmModelResults.hpp; sourceTree = SOURCE_ROOT; };
+		319E95AE1CD24FC8000E9AC4 /* xmmModelSharedParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmModelSharedParameters.cpp; path = ../../xmm/src/core/model/xmmModelSharedParameters.cpp; sourceTree = SOURCE_ROOT; };
+		319E95AF1CD24FC8000E9AC4 /* xmmModelSharedParameters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModelSharedParameters.hpp; path = ../../xmm/src/core/model/xmmModelSharedParameters.hpp; sourceTree = SOURCE_ROOT; };
+		319E95B01CD24FC8000E9AC4 /* xmmModelSingleClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmModelSingleClass.cpp; path = ../../xmm/src/core/model/xmmModelSingleClass.cpp; sourceTree = SOURCE_ROOT; };
+		319E95B11CD24FC8000E9AC4 /* xmmModelSingleClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmModelSingleClass.hpp; path = ../../xmm/src/core/model/xmmModelSingleClass.hpp; sourceTree = SOURCE_ROOT; };
+		319E95B41CD24FE7000E9AC4 /* xmmGaussianDistribution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmGaussianDistribution.cpp; path = ../../xmm/src/core/distributions/xmmGaussianDistribution.cpp; sourceTree = SOURCE_ROOT; };
+		319E95B51CD24FE7000E9AC4 /* xmmGaussianDistribution.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmGaussianDistribution.hpp; path = ../../xmm/src/core/distributions/xmmGaussianDistribution.hpp; sourceTree = SOURCE_ROOT; };
+		319E95B71CD24FFA000E9AC4 /* xmmAttribute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmAttribute.cpp; path = ../../xmm/src/core/common/xmmAttribute.cpp; sourceTree = SOURCE_ROOT; };
+		319E95B81CD24FFA000E9AC4 /* xmmAttribute.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmAttribute.hpp; path = ../../xmm/src/core/common/xmmAttribute.hpp; sourceTree = SOURCE_ROOT; };
+		319E95B91CD24FFA000E9AC4 /* xmmCircularbuffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmCircularbuffer.hpp; path = ../../xmm/src/core/common/xmmCircularbuffer.hpp; sourceTree = SOURCE_ROOT; };
+		319E95BA1CD24FFA000E9AC4 /* xmmEvents.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmEvents.hpp; path = ../../xmm/src/core/common/xmmEvents.hpp; sourceTree = SOURCE_ROOT; };
+		319E95BB1CD24FFA000E9AC4 /* xmmJson.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = xmmJson.cpp; path = ../../xmm/src/core/common/xmmJson.cpp; sourceTree = SOURCE_ROOT; };
+		319E95BC1CD24FFA000E9AC4 /* xmmJson.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmJson.hpp; path = ../../xmm/src/core/common/xmmJson.hpp; sourceTree = SOURCE_ROOT; };
+		319E95BD1CD24FFA000E9AC4 /* xmmMatrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmMatrix.hpp; path = ../../xmm/src/core/common/xmmMatrix.hpp; sourceTree = SOURCE_ROOT; };
+		319E95C01CD25047000E9AC4 /* xmm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmm.h; path = ../../xmm/src/xmm.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +128,7 @@
 		312A5BBA1CD0F23A00EDF507 /* xmm */ = {
 			isa = PBXGroup;
 			children = (
-				312A5BC41CD0F2E500EDF507 /* xmm.h */,
+				319E95C01CD25047000E9AC4 /* xmm.h */,
 				312A5BFB1CD0F37800EDF507 /* jsoncpp */,
 				312A5BC01CD0F28000EDF507 /* models */,
 				312A5BBB1CD0F24700EDF507 /* core */,
@@ -150,13 +150,13 @@
 		312A5BBC1CD0F25F00EDF507 /* common */ = {
 			isa = PBXGroup;
 			children = (
-				312A5BF21CD0F35000EDF507 /* xmmAttribute.cpp */,
-				312A5BF31CD0F35000EDF507 /* xmmAttribute.hpp */,
-				312A5BF41CD0F35000EDF507 /* xmmCircularbuffer.hpp */,
-				312A5BF51CD0F35000EDF507 /* xmmEvents.hpp */,
-				312A5BF61CD0F35000EDF507 /* xmmJson.cpp */,
-				312A5BF71CD0F35000EDF507 /* xmmJson.hpp */,
-				312A5BF81CD0F35000EDF507 /* xmmMatrix.hpp */,
+				319E95B71CD24FFA000E9AC4 /* xmmAttribute.cpp */,
+				319E95B81CD24FFA000E9AC4 /* xmmAttribute.hpp */,
+				319E95B91CD24FFA000E9AC4 /* xmmCircularbuffer.hpp */,
+				319E95BA1CD24FFA000E9AC4 /* xmmEvents.hpp */,
+				319E95BB1CD24FFA000E9AC4 /* xmmJson.cpp */,
+				319E95BC1CD24FFA000E9AC4 /* xmmJson.hpp */,
+				319E95BD1CD24FFA000E9AC4 /* xmmMatrix.hpp */,
 			);
 			name = common;
 			sourceTree = "<group>";
@@ -164,8 +164,8 @@
 		312A5BBD1CD0F26A00EDF507 /* distributions */ = {
 			isa = PBXGroup;
 			children = (
-				312A5BEF1CD0F34400EDF507 /* xmmGaussianDistribution.cpp */,
-				312A5BF01CD0F34400EDF507 /* xmmGaussianDistribution.hpp */,
+				319E95B41CD24FE7000E9AC4 /* xmmGaussianDistribution.cpp */,
+				319E95B51CD24FE7000E9AC4 /* xmmGaussianDistribution.hpp */,
 			);
 			name = distributions;
 			sourceTree = "<group>";
@@ -173,14 +173,14 @@
 		312A5BBE1CD0F27200EDF507 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				312A5BE51CD0F33300EDF507 /* xmmModel.hpp */,
-				312A5BE61CD0F33300EDF507 /* xmmModelConfiguration.hpp */,
-				312A5BE71CD0F33300EDF507 /* xmmModelParameters.hpp */,
-				312A5BE81CD0F33300EDF507 /* xmmModelResults.hpp */,
-				312A5BE91CD0F33300EDF507 /* xmmModelSharedParameters.cpp */,
-				312A5BEA1CD0F33300EDF507 /* xmmModelSharedParameters.hpp */,
-				312A5BEB1CD0F33300EDF507 /* xmmModelSingleClass.cpp */,
-				312A5BEC1CD0F33300EDF507 /* xmmModelSingleClass.hpp */,
+				319E95AA1CD24FC8000E9AC4 /* xmmModel.hpp */,
+				319E95AB1CD24FC8000E9AC4 /* xmmModelConfiguration.hpp */,
+				319E95AC1CD24FC8000E9AC4 /* xmmModelParameters.hpp */,
+				319E95AD1CD24FC8000E9AC4 /* xmmModelResults.hpp */,
+				319E95AE1CD24FC8000E9AC4 /* xmmModelSharedParameters.cpp */,
+				319E95AF1CD24FC8000E9AC4 /* xmmModelSharedParameters.hpp */,
+				319E95B01CD24FC8000E9AC4 /* xmmModelSingleClass.cpp */,
+				319E95B11CD24FC8000E9AC4 /* xmmModelSingleClass.hpp */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -188,10 +188,10 @@
 		312A5BBF1CD0F27800EDF507 /* trainingset */ = {
 			isa = PBXGroup;
 			children = (
-				312A5BDF1CD0F32700EDF507 /* xmmPhrase.cpp */,
-				312A5BE01CD0F32700EDF507 /* xmmPhrase.hpp */,
-				312A5BE11CD0F32700EDF507 /* xmmTrainingSet.cpp */,
-				312A5BE21CD0F32700EDF507 /* xmmTrainingSet.hpp */,
+				319E95A41CD24FB1000E9AC4 /* xmmPhrase.cpp */,
+				319E95A51CD24FB1000E9AC4 /* xmmPhrase.hpp */,
+				319E95A61CD24FB1000E9AC4 /* xmmTrainingSet.cpp */,
+				319E95A71CD24FB1000E9AC4 /* xmmTrainingSet.hpp */,
 			);
 			name = trainingset;
 			sourceTree = "<group>";
@@ -209,12 +209,12 @@
 		312A5BC11CD0F28B00EDF507 /* gmm */ = {
 			isa = PBXGroup;
 			children = (
-				312A5BD61CD0F31A00EDF507 /* xmmGmm.cpp */,
-				312A5BD71CD0F31A00EDF507 /* xmmGmm.hpp */,
-				312A5BD81CD0F31A00EDF507 /* xmmGmmParameters.cpp */,
-				312A5BD91CD0F31A00EDF507 /* xmmGmmParameters.hpp */,
-				312A5BDA1CD0F31A00EDF507 /* xmmGmmSingleClass.cpp */,
-				312A5BDB1CD0F31A00EDF507 /* xmmGmmSingleClass.hpp */,
+				319E959B1CD24F9D000E9AC4 /* xmmGmm.cpp */,
+				319E959C1CD24F9D000E9AC4 /* xmmGmm.hpp */,
+				319E959D1CD24F9D000E9AC4 /* xmmGmmParameters.cpp */,
+				319E959E1CD24F9D000E9AC4 /* xmmGmmParameters.hpp */,
+				319E959F1CD24F9D000E9AC4 /* xmmGmmSingleClass.cpp */,
+				319E95A01CD24F9D000E9AC4 /* xmmGmmSingleClass.hpp */,
 			);
 			name = gmm;
 			sourceTree = "<group>";
@@ -222,13 +222,13 @@
 		312A5BC21CD0F29600EDF507 /* hmm */ = {
 			isa = PBXGroup;
 			children = (
-				312A5BCC1CD0F30A00EDF507 /* xmmHierarchicalHmm.cpp */,
-				312A5BCD1CD0F30A00EDF507 /* xmmHierarchicalHmm.hpp */,
-				312A5BCE1CD0F30A00EDF507 /* xmmHmmParameters.cpp */,
-				312A5BCF1CD0F30A00EDF507 /* xmmHmmParameters.hpp */,
-				312A5BD01CD0F30A00EDF507 /* xmmHmmResults.hpp */,
-				312A5BD11CD0F30A00EDF507 /* xmmHmmSingleClass.cpp */,
-				312A5BD21CD0F30A00EDF507 /* xmmHmmSingleClass.hpp */,
+				319E95911CD24F82000E9AC4 /* xmmHierarchicalHmm.cpp */,
+				319E95921CD24F82000E9AC4 /* xmmHierarchicalHmm.hpp */,
+				319E95931CD24F82000E9AC4 /* xmmHmmParameters.cpp */,
+				319E95941CD24F82000E9AC4 /* xmmHmmParameters.hpp */,
+				319E95951CD24F82000E9AC4 /* xmmHmmResults.hpp */,
+				319E95961CD24F82000E9AC4 /* xmmHmmSingleClass.cpp */,
+				319E95971CD24F82000E9AC4 /* xmmHmmSingleClass.hpp */,
 			);
 			name = hmm;
 			sourceTree = "<group>";
@@ -236,11 +236,11 @@
 		312A5BC31CD0F29B00EDF507 /* kmeans */ = {
 			isa = PBXGroup;
 			children = (
-				312A5BC51CD0F2F900EDF507 /* xmmKMeans.cpp */,
-				312A5BC61CD0F2F900EDF507 /* xmmKMeans.hpp */,
-				312A5BC71CD0F2F900EDF507 /* xmmKMeansParameters.cpp */,
-				312A5BC81CD0F2F900EDF507 /* xmmKMeansParameters.hpp */,
-				312A5BC91CD0F2F900EDF507 /* xmmKMeansResults.hpp */,
+				319E958A1CD24F70000E9AC4 /* xmmKMeans.cpp */,
+				319E958B1CD24F70000E9AC4 /* xmmKMeans.hpp */,
+				319E958C1CD24F70000E9AC4 /* xmmKMeansParameters.cpp */,
+				319E958D1CD24F70000E9AC4 /* xmmKMeansParameters.hpp */,
+				319E958E1CD24F70000E9AC4 /* xmmKMeansResults.hpp */,
 			);
 			name = kmeans;
 			sourceTree = "<group>";
@@ -257,11 +257,11 @@
 		312A5BFC1CD0F37F00EDF507 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				312A5C081CD0F3AE00EDF507 /* json_reader.cpp */,
-				312A5C091CD0F3AE00EDF507 /* json_tool.h */,
-				312A5C0A1CD0F3AE00EDF507 /* json_value.cpp */,
-				312A5C0B1CD0F3AE00EDF507 /* json_valueiterator.inl */,
-				312A5C0C1CD0F3AE00EDF507 /* json_writer.cpp */,
+				319E95811CD24F48000E9AC4 /* json_reader.cpp */,
+				319E95821CD24F48000E9AC4 /* json_tool.h */,
+				319E95831CD24F48000E9AC4 /* json_value.cpp */,
+				319E95841CD24F48000E9AC4 /* json_valueiterator.inl */,
+				319E95851CD24F48000E9AC4 /* json_writer.cpp */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -269,16 +269,16 @@
 		312A5BFD1CD0F38900EDF507 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				312A5BFE1CD0F39C00EDF507 /* assertions.h */,
-				312A5BFF1CD0F39C00EDF507 /* autolink.h */,
-				312A5C001CD0F39C00EDF507 /* config.h */,
-				312A5C011CD0F39C00EDF507 /* forwards.h */,
-				312A5C021CD0F39C00EDF507 /* json-features.h */,
-				312A5C031CD0F39C00EDF507 /* json.h */,
-				312A5C041CD0F39C00EDF507 /* reader.h */,
-				312A5C051CD0F39C00EDF507 /* value.h */,
-				312A5C061CD0F39C00EDF507 /* version.h */,
-				312A5C071CD0F39C00EDF507 /* writer.h */,
+				319E95771CD24F2E000E9AC4 /* assertions.h */,
+				319E95781CD24F2E000E9AC4 /* autolink.h */,
+				319E95791CD24F2E000E9AC4 /* config.h */,
+				319E957A1CD24F2E000E9AC4 /* forwards.h */,
+				319E957B1CD24F2E000E9AC4 /* json-features.h */,
+				319E957C1CD24F2E000E9AC4 /* json.h */,
+				319E957D1CD24F2E000E9AC4 /* reader.h */,
+				319E957E1CD24F2E000E9AC4 /* value.h */,
+				319E957F1CD24F2E000E9AC4 /* version.h */,
+				319E95801CD24F2E000E9AC4 /* writer.h */,
 			);
 			name = include;
 			sourceTree = "<group>";
@@ -366,8 +366,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				312A5C0F1CD0F3AE00EDF507 /* json_valueiterator.inl in Resources */,
 				312A5C1B1CD0FAFE00EDF507 /* XMMEngine.h in Resources */,
+				319E95881CD24F48000E9AC4 /* json_valueiterator.inl in Resources */,
 				312A5C1D1CD0FCFE00EDF507 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,26 +379,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				312A5BD51CD0F30A00EDF507 /* xmmHmmSingleClass.cpp in Sources */,
-				312A5BE41CD0F32700EDF507 /* xmmTrainingSet.cpp in Sources */,
-				312A5BDE1CD0F31A00EDF507 /* xmmGmmSingleClass.cpp in Sources */,
+				319E959A1CD24F82000E9AC4 /* xmmHmmSingleClass.cpp in Sources */,
 				312A5C191CD0F45600EDF507 /* XMMEngineCore.cpp in Sources */,
-				312A5BE31CD0F32700EDF507 /* xmmPhrase.cpp in Sources */,
-				312A5BCA1CD0F2F900EDF507 /* xmmKMeans.cpp in Sources */,
-				312A5BD41CD0F30A00EDF507 /* xmmHmmParameters.cpp in Sources */,
-				312A5BF11CD0F34400EDF507 /* xmmGaussianDistribution.cpp in Sources */,
-				312A5BED1CD0F33300EDF507 /* xmmModelSharedParameters.cpp in Sources */,
-				312A5BEE1CD0F33300EDF507 /* xmmModelSingleClass.cpp in Sources */,
-				312A5BD31CD0F30A00EDF507 /* xmmHierarchicalHmm.cpp in Sources */,
-				312A5C101CD0F3AE00EDF507 /* json_writer.cpp in Sources */,
-				312A5BDC1CD0F31A00EDF507 /* xmmGmm.cpp in Sources */,
-				312A5C0E1CD0F3AE00EDF507 /* json_value.cpp in Sources */,
-				312A5BF91CD0F35000EDF507 /* xmmAttribute.cpp in Sources */,
-				312A5C0D1CD0F3AE00EDF507 /* json_reader.cpp in Sources */,
-				312A5BDD1CD0F31A00EDF507 /* xmmGmmParameters.cpp in Sources */,
+				319E95871CD24F48000E9AC4 /* json_value.cpp in Sources */,
+				319E95A81CD24FB1000E9AC4 /* xmmPhrase.cpp in Sources */,
+				319E95B31CD24FC8000E9AC4 /* xmmModelSingleClass.cpp in Sources */,
+				319E95B61CD24FE7000E9AC4 /* xmmGaussianDistribution.cpp in Sources */,
+				319E95981CD24F82000E9AC4 /* xmmHierarchicalHmm.cpp in Sources */,
+				319E95BE1CD24FFA000E9AC4 /* xmmAttribute.cpp in Sources */,
+				319E95BF1CD24FFA000E9AC4 /* xmmJson.cpp in Sources */,
+				319E95A31CD24F9D000E9AC4 /* xmmGmmSingleClass.cpp in Sources */,
+				319E95A91CD24FB1000E9AC4 /* xmmTrainingSet.cpp in Sources */,
+				319E95A21CD24F9D000E9AC4 /* xmmGmmParameters.cpp in Sources */,
+				319E95A11CD24F9D000E9AC4 /* xmmGmm.cpp in Sources */,
+				319E95861CD24F48000E9AC4 /* json_reader.cpp in Sources */,
+				319E958F1CD24F70000E9AC4 /* xmmKMeans.cpp in Sources */,
+				319E95B21CD24FC8000E9AC4 /* xmmModelSharedParameters.cpp in Sources */,
+				319E95901CD24F70000E9AC4 /* xmmKMeansParameters.cpp in Sources */,
 				312A5C181CD0F45600EDF507 /* XMMEngine.cpp in Sources */,
-				312A5BFA1CD0F35000EDF507 /* xmmJson.cpp in Sources */,
-				312A5BCB1CD0F2F900EDF507 /* xmmKMeansParameters.cpp in Sources */,
+				319E95991CD24F82000E9AC4 /* xmmHmmParameters.cpp in Sources */,
+				319E95891CD24F48000E9AC4 /* json_writer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
