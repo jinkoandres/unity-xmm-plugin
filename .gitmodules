@@ -1,4 +1,4 @@
 [submodule "xmm"]
 	path = xmm
-	url = https://github.com/JulesFrancoise/xmm.git
+	url = https://github.com/Ircam-RnD/xmm.git
 	ignore = dirty
