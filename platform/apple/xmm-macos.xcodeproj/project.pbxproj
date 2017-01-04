@@ -10,7 +10,6 @@
 		312A5C181CD0F45600EDF507 /* XMMEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5C161CD0F45600EDF507 /* XMMEngine.cpp */; };
 		312A5C191CD0F45600EDF507 /* XMMEngineCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5C171CD0F45600EDF507 /* XMMEngineCore.cpp */; };
 		312A5C1B1CD0FAFE00EDF507 /* XMMEngine.h in Resources */ = {isa = PBXBuildFile; fileRef = 312A5C141CD0F44700EDF507 /* XMMEngine.h */; };
-		312A5C1D1CD0FCFE00EDF507 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 312A5C1C1CD0FCFE00EDF507 /* Info.plist */; };
 		319E95861CD24F48000E9AC4 /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95811CD24F48000E9AC4 /* json_reader.cpp */; };
 		319E95871CD24F48000E9AC4 /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95831CD24F48000E9AC4 /* json_value.cpp */; };
 		319E95881CD24F48000E9AC4 /* json_valueiterator.inl in Resources */ = {isa = PBXBuildFile; fileRef = 319E95841CD24F48000E9AC4 /* json_valueiterator.inl */; };
@@ -30,7 +29,39 @@
 		319E95B61CD24FE7000E9AC4 /* xmmGaussianDistribution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95B41CD24FE7000E9AC4 /* xmmGaussianDistribution.cpp */; };
 		319E95BE1CD24FFA000E9AC4 /* xmmAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95B71CD24FFA000E9AC4 /* xmmAttribute.cpp */; };
 		319E95BF1CD24FFA000E9AC4 /* xmmJson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95BB1CD24FFA000E9AC4 /* xmmJson.cpp */; };
+		418880A81E1D23AB00D1DBE4 /* XMMEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5C161CD0F45600EDF507 /* XMMEngine.cpp */; };
+		418880A91E1D23AF00D1DBE4 /* XMMEngineCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5C171CD0F45600EDF507 /* XMMEngineCore.cpp */; };
+		418880AA1E1D251100D1DBE4 /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95811CD24F48000E9AC4 /* json_reader.cpp */; };
+		418880AB1E1D251100D1DBE4 /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95831CD24F48000E9AC4 /* json_value.cpp */; };
+		418880AC1E1D251100D1DBE4 /* json_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95851CD24F48000E9AC4 /* json_writer.cpp */; };
+		418880AD1E1D251100D1DBE4 /* xmmKMeans.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E958A1CD24F70000E9AC4 /* xmmKMeans.cpp */; };
+		418880AE1E1D251100D1DBE4 /* xmmKMeansParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E958C1CD24F70000E9AC4 /* xmmKMeansParameters.cpp */; };
+		418880AF1E1D251100D1DBE4 /* xmmHierarchicalHmm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95911CD24F82000E9AC4 /* xmmHierarchicalHmm.cpp */; };
+		418880B01E1D251100D1DBE4 /* xmmHmmParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95931CD24F82000E9AC4 /* xmmHmmParameters.cpp */; };
+		418880B11E1D251100D1DBE4 /* xmmHmmSingleClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95961CD24F82000E9AC4 /* xmmHmmSingleClass.cpp */; };
+		418880B21E1D251100D1DBE4 /* xmmGmm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E959B1CD24F9D000E9AC4 /* xmmGmm.cpp */; };
+		418880B31E1D251100D1DBE4 /* xmmGmmParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E959D1CD24F9D000E9AC4 /* xmmGmmParameters.cpp */; };
+		418880B41E1D251100D1DBE4 /* xmmGmmSingleClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E959F1CD24F9D000E9AC4 /* xmmGmmSingleClass.cpp */; };
+		418880B51E1D251100D1DBE4 /* xmmPhrase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95A41CD24FB1000E9AC4 /* xmmPhrase.cpp */; };
+		418880B61E1D251100D1DBE4 /* xmmTrainingSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95A61CD24FB1000E9AC4 /* xmmTrainingSet.cpp */; };
+		418880B71E1D251100D1DBE4 /* xmmModelSharedParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95AE1CD24FC8000E9AC4 /* xmmModelSharedParameters.cpp */; };
+		418880B81E1D251100D1DBE4 /* xmmModelSingleClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95B01CD24FC8000E9AC4 /* xmmModelSingleClass.cpp */; };
+		418880B91E1D251100D1DBE4 /* xmmGaussianDistribution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95B41CD24FE7000E9AC4 /* xmmGaussianDistribution.cpp */; };
+		418880BA1E1D251100D1DBE4 /* xmmAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95B71CD24FFA000E9AC4 /* xmmAttribute.cpp */; };
+		418880BB1E1D251100D1DBE4 /* xmmJson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95BB1CD24FFA000E9AC4 /* xmmJson.cpp */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4188809D1E1D223E00D1DBE4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		312A5BB11CD0F1AE00EDF507 /* XMMEngine.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMMEngine.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,10 +125,18 @@
 		319E95BC1CD24FFA000E9AC4 /* xmmJson.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmJson.hpp; path = ../../xmm/src/core/common/xmmJson.hpp; sourceTree = SOURCE_ROOT; };
 		319E95BD1CD24FFA000E9AC4 /* xmmMatrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = xmmMatrix.hpp; path = ../../xmm/src/core/common/xmmMatrix.hpp; sourceTree = SOURCE_ROOT; };
 		319E95C01CD25047000E9AC4 /* xmm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmm.h; path = ../../xmm/src/xmm.h; sourceTree = SOURCE_ROOT; };
+		4188809F1E1D223E00D1DBE4 /* libxmm-ios-plugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libxmm-ios-plugin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		312A5BAE1CD0F1AE00EDF507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4188809C1E1D223E00D1DBE4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -121,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				312A5BB11CD0F1AE00EDF507 /* XMMEngine.bundle */,
+				4188809F1E1D223E00D1DBE4 /* libxmm-ios-plugin.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -330,17 +370,39 @@
 			productReference = 312A5BB11CD0F1AE00EDF507 /* XMMEngine.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
+		4188809E1E1D223E00D1DBE4 /* xmm-ios-plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418880A71E1D223E00D1DBE4 /* Build configuration list for PBXNativeTarget "xmm-ios-plugin" */;
+			buildPhases = (
+				4188809B1E1D223E00D1DBE4 /* Sources */,
+				4188809C1E1D223E00D1DBE4 /* Frameworks */,
+				4188809D1E1D223E00D1DBE4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xmm-ios-plugin";
+			productName = "xmm-ios-plugin";
+			productReference = 4188809F1E1D223E00D1DBE4 /* libxmm-ios-plugin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		312A5BA91CD0F1AE00EDF507 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = IRCAM;
 				TargetAttributes = {
 					312A5BB01CD0F1AE00EDF507 = {
 						CreatedOnToolsVersion = 7.2;
+					};
+					4188809E1E1D223E00D1DBE4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 542RPQW8G6;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -357,6 +419,7 @@
 			projectRoot = "";
 			targets = (
 				312A5BB01CD0F1AE00EDF507 /* XMMEngine */,
+				4188809E1E1D223E00D1DBE4 /* xmm-ios-plugin */,
 			);
 		};
 /* End PBXProject section */
@@ -368,7 +431,6 @@
 			files = (
 				312A5C1B1CD0FAFE00EDF507 /* XMMEngine.h in Resources */,
 				319E95881CD24F48000E9AC4 /* json_valueiterator.inl in Resources */,
-				312A5C1D1CD0FCFE00EDF507 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +464,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4188809B1E1D223E00D1DBE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418880B11E1D251100D1DBE4 /* xmmHmmSingleClass.cpp in Sources */,
+				418880A81E1D23AB00D1DBE4 /* XMMEngine.cpp in Sources */,
+				418880AB1E1D251100D1DBE4 /* json_value.cpp in Sources */,
+				418880B51E1D251100D1DBE4 /* xmmPhrase.cpp in Sources */,
+				418880B81E1D251100D1DBE4 /* xmmModelSingleClass.cpp in Sources */,
+				418880B91E1D251100D1DBE4 /* xmmGaussianDistribution.cpp in Sources */,
+				418880AF1E1D251100D1DBE4 /* xmmHierarchicalHmm.cpp in Sources */,
+				418880BA1E1D251100D1DBE4 /* xmmAttribute.cpp in Sources */,
+				418880BB1E1D251100D1DBE4 /* xmmJson.cpp in Sources */,
+				418880B41E1D251100D1DBE4 /* xmmGmmSingleClass.cpp in Sources */,
+				418880B61E1D251100D1DBE4 /* xmmTrainingSet.cpp in Sources */,
+				418880B31E1D251100D1DBE4 /* xmmGmmParameters.cpp in Sources */,
+				418880B21E1D251100D1DBE4 /* xmmGmm.cpp in Sources */,
+				418880AA1E1D251100D1DBE4 /* json_reader.cpp in Sources */,
+				418880AD1E1D251100D1DBE4 /* xmmKMeans.cpp in Sources */,
+				418880B71E1D251100D1DBE4 /* xmmModelSharedParameters.cpp in Sources */,
+				418880AE1E1D251100D1DBE4 /* xmmKMeansParameters.cpp in Sources */,
+				418880A91E1D23AF00D1DBE4 /* XMMEngineCore.cpp in Sources */,
+				418880B01E1D251100D1DBE4 /* xmmHmmParameters.cpp in Sources */,
+				418880AC1E1D251100D1DBE4 /* json_writer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -409,7 +498,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -419,8 +507,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -455,7 +545,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -465,8 +554,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -514,6 +605,43 @@
 			};
 			name = Release;
 		};
+		418880A51E1D223E00D1DBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 542RPQW8G6;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		418880A61E1D223E00D1DBE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 542RPQW8G6;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -534,6 +662,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		418880A71E1D223E00D1DBE4 /* Build configuration list for PBXNativeTarget "xmm-ios-plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418880A51E1D223E00D1DBE4 /* Debug */,
+				418880A61E1D223E00D1DBE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
