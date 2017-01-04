@@ -47,9 +47,13 @@ elif [ $platform == "apple" ]
 then
 #xcodebuild something
 rm -rf ./platform/apple/bin/XMMEngine.bundle
-xcodebuild -project ./platform/apple/xmm-macos.xcodeproj
+xcodebuild -project ./platform/apple/xmm-macos.xcodeproj -scheme XMMEngine
 mkdir -p ../Assets/Plugins/apple
 cp -r ./platform/apple/bin/XMMEngine.bundle ../Assets/Plugins/apple
 rm -rf ./platform/apple/build
+elif [ $platform == "ios" ]
+then
+rm -rf ./platform/apple/iOS/bin/
+	xcodebuild -project ./platform/apple/xmm-macos.xcodeproj -scheme xmm-ios-plugin 
 
 fi
