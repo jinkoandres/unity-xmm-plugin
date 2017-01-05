@@ -29,6 +29,44 @@
 		319E95B61CD24FE7000E9AC4 /* xmmGaussianDistribution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95B41CD24FE7000E9AC4 /* xmmGaussianDistribution.cpp */; };
 		319E95BE1CD24FFA000E9AC4 /* xmmAttribute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95B71CD24FFA000E9AC4 /* xmmAttribute.cpp */; };
 		319E95BF1CD24FFA000E9AC4 /* xmmJson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95BB1CD24FFA000E9AC4 /* xmmJson.cpp */; };
+		413C5B671E1E522800A47B82 /* XMMEngine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 312A5C141CD0F44700EDF507 /* XMMEngine.h */; };
+		413C5B681E1E522800A47B82 /* XMMEngineCore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 312A5C151CD0F44700EDF507 /* XMMEngineCore.h */; };
+		413C5B691E1E522800A47B82 /* xmm.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95C01CD25047000E9AC4 /* xmm.h */; };
+		413C5B6A1E1E522900A47B82 /* assertions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95771CD24F2E000E9AC4 /* assertions.h */; };
+		413C5B6B1E1E522900A47B82 /* autolink.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95781CD24F2E000E9AC4 /* autolink.h */; };
+		413C5B6C1E1E522900A47B82 /* config.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95791CD24F2E000E9AC4 /* config.h */; };
+		413C5B6D1E1E522900A47B82 /* forwards.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E957A1CD24F2E000E9AC4 /* forwards.h */; };
+		413C5B6E1E1E522900A47B82 /* json-features.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E957B1CD24F2E000E9AC4 /* json-features.h */; };
+		413C5B6F1E1E522900A47B82 /* json.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E957C1CD24F2E000E9AC4 /* json.h */; };
+		413C5B701E1E522900A47B82 /* reader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E957D1CD24F2E000E9AC4 /* reader.h */; };
+		413C5B711E1E522900A47B82 /* value.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E957E1CD24F2E000E9AC4 /* value.h */; };
+		413C5B721E1E522900A47B82 /* version.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E957F1CD24F2E000E9AC4 /* version.h */; };
+		413C5B731E1E522900A47B82 /* writer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95801CD24F2E000E9AC4 /* writer.h */; };
+		413C5B741E1E522900A47B82 /* json_tool.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95821CD24F48000E9AC4 /* json_tool.h */; };
+		413C5B751E1E522900A47B82 /* xmmKMeans.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E958B1CD24F70000E9AC4 /* xmmKMeans.hpp */; };
+		413C5B761E1E522900A47B82 /* xmmKMeansParameters.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E958D1CD24F70000E9AC4 /* xmmKMeansParameters.hpp */; };
+		413C5B771E1E522900A47B82 /* xmmKMeansResults.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E958E1CD24F70000E9AC4 /* xmmKMeansResults.hpp */; };
+		413C5B781E1E522900A47B82 /* xmmHierarchicalHmm.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95921CD24F82000E9AC4 /* xmmHierarchicalHmm.hpp */; };
+		413C5B791E1E522900A47B82 /* xmmHmmParameters.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95941CD24F82000E9AC4 /* xmmHmmParameters.hpp */; };
+		413C5B7A1E1E522900A47B82 /* xmmHmmResults.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95951CD24F82000E9AC4 /* xmmHmmResults.hpp */; };
+		413C5B7B1E1E522900A47B82 /* xmmHmmSingleClass.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95971CD24F82000E9AC4 /* xmmHmmSingleClass.hpp */; };
+		413C5B7C1E1E522900A47B82 /* xmmGmm.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E959C1CD24F9D000E9AC4 /* xmmGmm.hpp */; };
+		413C5B7D1E1E522900A47B82 /* xmmGmmParameters.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E959E1CD24F9D000E9AC4 /* xmmGmmParameters.hpp */; };
+		413C5B7E1E1E522900A47B82 /* xmmGmmSingleClass.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95A01CD24F9D000E9AC4 /* xmmGmmSingleClass.hpp */; };
+		413C5B7F1E1E522900A47B82 /* xmmPhrase.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95A51CD24FB1000E9AC4 /* xmmPhrase.hpp */; };
+		413C5B801E1E522900A47B82 /* xmmTrainingSet.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95A71CD24FB1000E9AC4 /* xmmTrainingSet.hpp */; };
+		413C5B811E1E522900A47B82 /* xmmModel.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95AA1CD24FC8000E9AC4 /* xmmModel.hpp */; };
+		413C5B821E1E522900A47B82 /* xmmModelConfiguration.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95AB1CD24FC8000E9AC4 /* xmmModelConfiguration.hpp */; };
+		413C5B831E1E522900A47B82 /* xmmModelParameters.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95AC1CD24FC8000E9AC4 /* xmmModelParameters.hpp */; };
+		413C5B841E1E522900A47B82 /* xmmModelResults.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95AD1CD24FC8000E9AC4 /* xmmModelResults.hpp */; };
+		413C5B851E1E522900A47B82 /* xmmModelSharedParameters.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95AF1CD24FC8000E9AC4 /* xmmModelSharedParameters.hpp */; };
+		413C5B861E1E522900A47B82 /* xmmModelSingleClass.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95B11CD24FC8000E9AC4 /* xmmModelSingleClass.hpp */; };
+		413C5B871E1E522900A47B82 /* xmmGaussianDistribution.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95B51CD24FE7000E9AC4 /* xmmGaussianDistribution.hpp */; };
+		413C5B881E1E522900A47B82 /* xmmAttribute.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95B81CD24FFA000E9AC4 /* xmmAttribute.hpp */; };
+		413C5B891E1E522900A47B82 /* xmmCircularbuffer.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95B91CD24FFA000E9AC4 /* xmmCircularbuffer.hpp */; };
+		413C5B8A1E1E522900A47B82 /* xmmEvents.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95BA1CD24FFA000E9AC4 /* xmmEvents.hpp */; };
+		413C5B8B1E1E522900A47B82 /* xmmJson.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95BC1CD24FFA000E9AC4 /* xmmJson.hpp */; };
+		413C5B8C1E1E522900A47B82 /* xmmMatrix.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 319E95BD1CD24FFA000E9AC4 /* xmmMatrix.hpp */; };
 		418880A81E1D23AB00D1DBE4 /* XMMEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5C161CD0F45600EDF507 /* XMMEngine.cpp */; };
 		418880A91E1D23AF00D1DBE4 /* XMMEngineCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 312A5C171CD0F45600EDF507 /* XMMEngineCore.cpp */; };
 		418880AA1E1D251100D1DBE4 /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 319E95811CD24F48000E9AC4 /* json_reader.cpp */; };
@@ -58,6 +96,44 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				413C5B671E1E522800A47B82 /* XMMEngine.h in CopyFiles */,
+				413C5B681E1E522800A47B82 /* XMMEngineCore.h in CopyFiles */,
+				413C5B691E1E522800A47B82 /* xmm.h in CopyFiles */,
+				413C5B6A1E1E522900A47B82 /* assertions.h in CopyFiles */,
+				413C5B6B1E1E522900A47B82 /* autolink.h in CopyFiles */,
+				413C5B6C1E1E522900A47B82 /* config.h in CopyFiles */,
+				413C5B6D1E1E522900A47B82 /* forwards.h in CopyFiles */,
+				413C5B6E1E1E522900A47B82 /* json-features.h in CopyFiles */,
+				413C5B6F1E1E522900A47B82 /* json.h in CopyFiles */,
+				413C5B701E1E522900A47B82 /* reader.h in CopyFiles */,
+				413C5B711E1E522900A47B82 /* value.h in CopyFiles */,
+				413C5B721E1E522900A47B82 /* version.h in CopyFiles */,
+				413C5B731E1E522900A47B82 /* writer.h in CopyFiles */,
+				413C5B741E1E522900A47B82 /* json_tool.h in CopyFiles */,
+				413C5B751E1E522900A47B82 /* xmmKMeans.hpp in CopyFiles */,
+				413C5B761E1E522900A47B82 /* xmmKMeansParameters.hpp in CopyFiles */,
+				413C5B771E1E522900A47B82 /* xmmKMeansResults.hpp in CopyFiles */,
+				413C5B781E1E522900A47B82 /* xmmHierarchicalHmm.hpp in CopyFiles */,
+				413C5B791E1E522900A47B82 /* xmmHmmParameters.hpp in CopyFiles */,
+				413C5B7A1E1E522900A47B82 /* xmmHmmResults.hpp in CopyFiles */,
+				413C5B7B1E1E522900A47B82 /* xmmHmmSingleClass.hpp in CopyFiles */,
+				413C5B7C1E1E522900A47B82 /* xmmGmm.hpp in CopyFiles */,
+				413C5B7D1E1E522900A47B82 /* xmmGmmParameters.hpp in CopyFiles */,
+				413C5B7E1E1E522900A47B82 /* xmmGmmSingleClass.hpp in CopyFiles */,
+				413C5B7F1E1E522900A47B82 /* xmmPhrase.hpp in CopyFiles */,
+				413C5B801E1E522900A47B82 /* xmmTrainingSet.hpp in CopyFiles */,
+				413C5B811E1E522900A47B82 /* xmmModel.hpp in CopyFiles */,
+				413C5B821E1E522900A47B82 /* xmmModelConfiguration.hpp in CopyFiles */,
+				413C5B831E1E522900A47B82 /* xmmModelParameters.hpp in CopyFiles */,
+				413C5B841E1E522900A47B82 /* xmmModelResults.hpp in CopyFiles */,
+				413C5B851E1E522900A47B82 /* xmmModelSharedParameters.hpp in CopyFiles */,
+				413C5B861E1E522900A47B82 /* xmmModelSingleClass.hpp in CopyFiles */,
+				413C5B871E1E522900A47B82 /* xmmGaussianDistribution.hpp in CopyFiles */,
+				413C5B881E1E522900A47B82 /* xmmAttribute.hpp in CopyFiles */,
+				413C5B891E1E522900A47B82 /* xmmCircularbuffer.hpp in CopyFiles */,
+				413C5B8A1E1E522900A47B82 /* xmmEvents.hpp in CopyFiles */,
+				413C5B8B1E1E522900A47B82 /* xmmJson.hpp in CopyFiles */,
+				413C5B8C1E1E522900A47B82 /* xmmMatrix.hpp in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,6 +748,7 @@
 				418880A61E1D223E00D1DBE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
